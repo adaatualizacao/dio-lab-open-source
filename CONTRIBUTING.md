@@ -79,14 +79,14 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
     
 ## Convenção de Commits 
 
-| Tipo de Commit |Descrição                                                            | Exemplo
-| ---------------|----------------------------------------------------------------------|-----------
-| `feat`         | Adiciona uma nova funcionalidade ao projeto.                         | `feat: add USENAME.md profile`
-| `fix`          | Corrige um bug ou problema no projeto.                               | `fix: fixed issue fix#IssueNumber`
-| `docs`         | Altera a documentação do projeto.| `docs: update README.md`
-| `style`        | Realiza mudanças na aparência, sem alterar a funcionalidade.         | `style: add EFFECTNAME to COMPONENT`
-| `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor: refactor at CLASSNAME`
-| `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
+| Tipo de Commit | Descrição                                                                 | Exemplo |
+|----------------|---------------------------------------------------------------------------|---------|
+| `feat`         | Adiciona uma nova funcionalidade, arquivo ou recurso ao projeto.          | `feat: add USERNAME profile` |
+| `fix`          | Corrige um erro, problema ou comportamento inesperado.                    | `fix: resolve issue #IssueNumber` |
+| `docs`         | Atualiza ou adiciona documentação (README, guias, comentários, etc).      | `docs: update CONTRIBUTING.md` |
+| `style`        | Ajustes que **não afetam a lógica**, como formatação, indentação ou layout.| `style: improve component spacing` |
+| `refactor`     | Alterações internas no código sem mudar o comportamento existente.        | `refactor: simplify UserService flow` |
+| `test`         | Adiciona ou modifica testes automatizados.                                | `test: add unit tests for UserService` |
 
 
 ## Referências
